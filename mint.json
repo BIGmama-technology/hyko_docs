@@ -1,0 +1,64 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Hyko.ai",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1E3A8A",
+    "light": "#3B82F6",
+    "dark": "#1E40AF",
+    "anchors": {
+      "from": "#1E3A8A",
+      "to": "#60A5FA"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Templates",
+      "arrow": true,
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://beta.stage.hyko.ai",
+    "arrow": true,
+    "style": "pill"
+  },
+  "theme": "prism",
+  "background": {
+    "style": "gradient"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/toolkit",
+        "getting-started/runs",
+        "getting-started/types",
+        "getting-started/appbook",
+        "getting-started/storage",
+        "getting-started/misc"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "pages": [
+        "advanced/loop-mode",
+        "advanced/cache",
+        "advanced/node-settings",
+        "advanced/history",
+        "advanced/note-node"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "youtube": "https://www.youtube.com/@Hyko_ai",
+    "instagram": "https://www.instagram.com/big.mama.technology/",
+    "linkedin": "https://dz.linkedin.com/company/bigmama-technology"
+  }
+}
