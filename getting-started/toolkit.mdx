@@ -1,20 +1,54 @@
 ---
 title: Toolkit
-description: 'Welcome to the home of your new documentation'
+description: 'Toolkit : Hyko building blocks'
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
+Once you create a new blueprint, you'll see a plus button in the top left corner. Clicking it reveals a floating panel with various nodes - the building blocks in Hyko. Drag these nodes to the blueprint area to configure and connect them, creating your automation.
 
-## Setting up
+Each node represents a step in your automation process. Nodes can be AI models, writers (like Google Docs writer), readers (such as YouTube transcript reader), or utility functions (e.g., email sender or video-to-audio converter).
 
-The first step to world-class documentation is setting up your editing environments.
+After building your automation, click "Run" to start it. A popup will appear above each node, showing its current state (executing, finished, error, or warning). A side sheet on the left displays results and elapsed time for running nodes.
 
+You can review previous runs by checking your blueprint's history.
+
+<Card
+  title="Runs"
+  icon="bolt"
+  href="https://docs.hyko.ai/getting-started/runs"
+>
+  Keep track of your automation runs
+</Card>
+
+# Anatomy of a node
+
+A node has inputs (designated by fields with ports on the left), outputs (with ports on the right), and parameters for further configuration.
+
+Connect nodes by grabbing ports and linking them, passing output from one node to another's input. Note that connections are only possible from outputs to inputs, and types must be compatible.
+
+<Card
+  title="Types"
+  icon="code-branch"
+  href="https://docs.hyko.ai/getting-started/types"
+>
+  Make sense of how types work
+</Card>
+
+When you select a node, a floating panel appears above it. Here, you can delete, duplicate, or further configure the node by accessing advanced parameters.
+Additional features like caching and loop-mode are also available.
+
+<CardGroup cols={2}>
+  <Card
+    title="Loop-mode"
+    icon="repeat"
+    href="https://docs.hyko.ai/advanced/loop-mode"
+  >
+    Scale your blueprints with loop-mode
+  </Card>
+  <Card
+    title="Caching"
+    icon="database"
+    href="https://docs.hyko.ai/advanced/cache"
+  >
+    Improve performance, speed and cost using caching
+  </Card>
+</CardGroup>

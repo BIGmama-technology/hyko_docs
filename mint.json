@@ -18,8 +18,7 @@
   "topbarLinks": [
     {
       "name": "Templates",
-      "arrow": true,
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://beta.hyko.ai/templates"
     }
   ],
   "topbarCtaButton": {
@@ -38,9 +37,8 @@
       "pages": [
         "getting-started/introduction",
         "getting-started/toolkit",
-        "getting-started/runs",
         "getting-started/types",
-        "getting-started/appbook",
+        "getting-started/runs",
         "getting-started/storage",
         "getting-started/misc"
       ]
@@ -48,10 +46,10 @@
     {
       "group": "Advanced",
       "pages": [
-        "advanced/loop-mode",
         "advanced/cache",
+        "advanced/loop-mode",
         "advanced/node-settings",
-        "advanced/history",
+        "advanced/appbook",
         "advanced/note-node"
       ]
     }

@@ -1,20 +1,30 @@
 ---
 title: Types
-description: 'Welcome to the home of your new documentation'
+description: 'Understanding Types'
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
+In order to connect nodes together, you need to match their port types.
+Ports have different colors corresponding to their types, making it easy to visually identify and connect compatible ports.
 
-## Setting up
+## Basic Types
 
-The first step to world-class documentation is setting up your editing environments.
+1. Text: Represents string data, such as words, sentences, or paragraphs.
+2. Number: Represents numerical data, including whole and decimal numbers.
+3. Image: Represents image files in various formats (e.g., PNG, JPEG, GIF).
+4. Video: Represents video files in common formats (e.g., MP4, AVI, MOV).
+5. Audio: Represents audio files in formats like MP3, WAV and so on.
 
+## Other Types
+
+6. File: Represents any type of file (image, video, audio ..), useful for general file handling operations.
+7. Any: A flexible type that can represent any data type, allowing for more dynamic connections.
+
+## List Types
+
+All of the previous types can be wrapped in a list, creating new types such as list[image] or list[text]. These list types allow you to work with collections of data.
+
+When working with lists, keep in mind:
+
+1. You can only connect a list port to a compatible list port.
+2. Consider using [loop mode](https://docs.hyko.ai/advanced/loop-mode) with nodes that dont handle lists by default.
+3. Intermediate nodes may help you match the types of two ports that are not directly compatible.
