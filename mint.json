@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://beta.stage.hyko.ai",
+    "url": "https://beta.hyko.ai",
     "arrow": true,
     "style": "pill"
   },
