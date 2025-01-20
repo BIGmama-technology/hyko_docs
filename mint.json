@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Templates",
-      "url": "https://beta.hyko.ai/templates"
+      "url": "https://hyko.ai/templates"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://beta.hyko.ai",
+    "url": "https://hyko.ai",
     "arrow": true,
     "style": "pill"
   },
